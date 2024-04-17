@@ -166,7 +166,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="Queue Management/Process 2" sap:VirtualizedContainerService.HintSize="410,143" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" QueueItemStates="New" QueueName="Process 2 - Queue" Reference="[QueueReference]" Result="[QueueItem]">
+    <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Skip="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" Top="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="Equals" FolderPath="Queue Management/Process 2" sap:VirtualizedContainerService.HintSize="410,143" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" QueueItemStates="New, InProgress" QueueName="Process 2 - Queue" Reference="[QueueReference]" Result="[QueueItem]">
       <ui:GetQueueItems.Priority>
         <InArgument x:TypeArguments="s:Nullable(x:Int32)">
           <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
